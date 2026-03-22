@@ -3,7 +3,7 @@
 Este documento contém referências rápidas para extração de padrões com Expressões Regulares
 
 
-## Expressões Regulares (Regex)
+## 🔍 Expressões Regulares (Regex)
 O Regex é uma ferramenta para identificar, manipular e extrair padrões de texto.
 
 ### Guia de Caracteres Especiais

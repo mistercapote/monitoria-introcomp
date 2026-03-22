@@ -1,9 +1,11 @@
-# 🛠️ Guia de Sobrevivência: Git
+# 🛠️ Guia de Sobrevivência: Git & GitHub
 
-Este documento contém referências rápidas para controle de versão com Git.
+Este documento contém referências rápidas para controle de versão com Git Git & GitHub.
 
-## Git
-O Git é um sistema distribuído que permite registrar e acompanhar mudanças em arquivos ao longo do tempo, muito usado para versionamento de código.
+## 🐙 Git & GitHub
+O Git é um sistema distribuído que permite registrar e acompanhar mudanças em arquivos ao longo do tempo. 
+
+O GitHub é uma plataforma de hospedagem em nuvem que armazena seus repositórios Git. 
 
 ### 1. Instalação
 
@@ -40,6 +42,10 @@ git init
 *Prepare um arquivo específico para o próximo commit.*
 ``` 
 git add "nome_arquivo"
+```
+*Remova um arquivo específico da fila (desfaça o comando anterior).*
+```
+git restore --staged "nome_arquivo"
 ```
 *Prepare TODOS os arquivos alterados da pasta atual para o próximo commit.*
 ```
