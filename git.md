@@ -1,6 +1,6 @@
 # 🛠️ Guia de Sobrevivência: Git & GitHub
 
-Este documento contém referências rápidas para controle de versão com Git Git & GitHub.
+Este documento contém referências rápidas para controle de versão com Git & GitHub.
 
 ## 🐙 Git & GitHub
 O Git é um sistema distribuído que permite registrar e acompanhar mudanças em arquivos ao longo do tempo. 

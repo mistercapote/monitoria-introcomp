@@ -10,8 +10,8 @@ O Regex é uma ferramenta para identificar, manipular e extrair padrões de text
 
 | Categoria | Caractere | Descrição | Exemplo |
 | :--- | :--- | :--- | :--- |
-| **Âncoras** | `^` | Início da linha | `^A` - Linha começando com A |
-|  | `$` | Final da linha | `z$` - Linha terminando em z |
+| **Âncoras** | `^` | Início da linha | `^A` - Encontra linha começando com A |
+|  | `$` | Final da linha | `z$` - Encontra linha terminando em z |
 |  | `\b` | Fronteira de palavra | `\bpedra\b` - Encontra "pedra", mas não "enpedrada"
 |  | `\B` | NÃO-fronteira de palavra | `\Bpedra\B` - Encontra "enpedrada", mas não "pedra" |
 | **Classes** | `.` | Qualquer caractere | `g.t.` - Encontra "gota", "gato", "gata" |
@@ -31,6 +31,7 @@ O Regex é uma ferramenta para identificar, manipular e extrair padrões de text
 |  | `?` | Zero ou uma ocorrência (opcional) | `casas?` Encontra "casa", "casas" |
 |  | `{n}` | Exatamente **n** ocorrências | `\d{2}` Encontra "12", '55", "00" |
 |  | `{n,m}` | De **n** até **m** ocorrências | `\d{2,4}` Encontra "10", "173", "0024" |
-| **Lógica** | `(...)` | Agrupamento e captura | `(banana)` Encontra "banana"|
+| **Lógica** | `(...)` | Agrupamento e captura | `(banana)` Encontra "banana", valor fica salvo em `\1`. Se houver outro `(...)`, valor fica salvo em `\2` e assim por diante. |
+| | `(?:...)` | Agrupamento sem captura | `(?:banana)` Encontra "banana", mas valor não fica salvo em memória. |
 |  | `\|` | Operador OU | `(banana\|maçã)` Encontra "banana", "maçã"|
 |  | `\` | Escape (anula o poder do símbolo) | `\.` Encontra "." |
