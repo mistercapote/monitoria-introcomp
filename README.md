@@ -17,6 +17,12 @@ Se tiver dúvidas sobre o conteúdo, lógica de programação ou sobre os guias 
 ### 🔍 [Regex](./regex.md)
 *Entenda como encontrar padrões em textos e manipular dados de forma inteligente usando expressões regulares*
 
+### ✂️ [Sed](./sed.md)
+*Domine a edição de fluxos de texto para substituir palavras, deletar linhas e transformar arquivos inteiros.*
+
+### 🎯 [Grep](./grep.md)
+*Filtre informações, encontre agulhas em palheiros de arquivos e extraia dados específicos usando o poder da busca por padrões.*
+
 
 ## 🛠️ Ferramentas Recomendadas
 
