@@ -26,6 +26,7 @@ O Regex é uma ferramenta para identificar, manipular e extrair padrões de text
 | **Classes POSIX** | `[[:alpha:]]` | Qualquer letras (considera acentos) |  |
 |  | `[[:alnum:]]` | Alfanumérico (letras, números e `_`) |  |
 |  | `[[:digit:]]` | Qualquer dígito numérico |  |
+|  | `[[:space:]]` | Espaços, tabs e quebras de linha.
 | **Conjuntos** | `[abc]` | Qualquer um dos caracteres especificados | `[aeiou]` | Encontra vogais |
 |  | `[^abc]` | Qualquer caractere EXCETO os especificados | `[^aeiou]` | Encontra consoantes |
 |  | `[a-z]` | Intervalo de caracteres | `[0-5]` | Encontra números de 0 a 5 |
