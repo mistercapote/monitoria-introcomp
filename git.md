@@ -45,7 +45,7 @@ git add "nome_arquivo"
 ```
 *Remova um arquivo específico da fila (desfaça o comando anterior).*
 ```
-git restore --staged "nome_arquivo"
+git rm --cached "nome_arquivo"
 ```
 *Prepare TODOS os arquivos alterados da pasta atual para o próximo commit.*
 ```
