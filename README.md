@@ -2,27 +2,30 @@
 
 Bem-vindo ao repositório de apoio à monitoria da disciplina de Introdução à Computação! Este espaço foi criado para centralizar materiais, exercícios e guias rápidos para auxiliar no seu aprendizado.
 
-## 👋 Apresentação
-
-Olá! Eu sou o Luiz e serei seu monitor nesta jornada computacional. Meu objetivo aqui é ajudar você a desmistificar a programação e a dominar as ferramentas essenciais de desenvolvimento. 
-
-Se tiver dúvidas sobre o conteúdo, lógica de programação ou sobre os guias presentes aqui, sinta-se à vontade para entrar em contato.
-
-
 ## 📚 Guias de sobrevivência
 
-### 🐙 [Git & GitHub](./git.md)
+### [Git & GitHub](./git.md)
 *Aprenda a versionar seu código, criar branches, fazer commits e subir seus projetos para a nuvem sem medo de quebrar nada.*
 
-### 🔍 [Regex](./regex.md)
-*Entenda como encontrar padrões em textos e manipular dados de forma inteligente usando expressões regulares*
+### [Regex](./regex.md)
+*Entenda como encontrar padrões em textos e manipular dados de forma inteligente usando expressões regulares.*
 
-### ✂️ [Sed](./sed.md)
-*Domine a edição de fluxos de texto para substituir palavras, deletar linhas e transformar arquivos inteiros.*
+### [Bash](./bash.md) (em breve)
+*Navegue pelo sistema, manipule arquivos, direcione fluxos de dados e automatize tarefas do dia a dia dominando a linha de comando.*
 
-### 🎯 [Grep](./grep.md)
-*Filtre informações, encontre agulhas em palheiros de arquivos e extraia dados específicos usando o poder da busca por padrões.*
+### [Sed & Grep](./sed_grep.md)
+*Domine a manipulação avançada de textos: encontre padrões específicos e filtre informações com grep, automatize edições de dados e atualize textos com sed.*
 
+### [Redes](./network.md) (em breve)
+*Descubra como a internet funciona por debaixo dos panos, explorando protocolos, IPs, portas e como os computadores se comunicam.*
+
+### [HTML & CSS](./html_css.md) (em breve)
+*Estruture o conteúdo da web e crie visuais interessantes dominando as linguagens fundamentais para a construção de páginas na internet.*
+
+### [Latex](./latex.md) (em breve)
+*Escreva relatórios acadêmicos, formate equações complexas e crie apresentações profissionais com tipografia impecável.*
+
+## 📚 Lista de exercícios (em breve)
 
 ## 🛠️ Ferramentas Recomendadas
 
